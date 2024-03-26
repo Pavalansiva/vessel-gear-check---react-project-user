@@ -1,0 +1,218 @@
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 0; 
+}
+.dashboard {
+  display: flex;
+}
+body{
+  justify-content: left;
+  align-items: left;
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+  background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF 48.98%, #4539FF 71.76%, #2B1EFC 100%);
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.sheader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10%;
+  margin-top: 10%;
+  padding-right: 50px;
+  background: #FFFFFF;
+  border-radius: 45px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration-color: #524E4E;
+  font-size: medium;
+  font-weight: bold;
+  height: 5%;
+}
+.box2 {
+  
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 500px;
+  height: 400px;
+  background-color: #9999;
+  border: 1px solid #9999;
+  align-items: center;
+  padding-bottom: 80px;
+  margin-left: 10%;
+
+}
+
+.captain-logo {
+  background-image: url('/src/components/images/cap.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.captain-text {
+  margin-left: 15px;
+  letter-spacing: 0.5px;
+  color: #524E4E;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 80%;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  margin-bottom: 4%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.option img {
+  width: 30px;
+  margin-right: 10px;
+  transition: filter 0.3s ease, mix-blend-mode 0.3s ease;
+}
+
+.option span {
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  color: white;
+  transition: color 0.3s ease;
+ 
+}
+
+.option:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+}
+
+.option:hover img {
+  filter: grayscale(100%) brightness(35%);
+  mix-blend-mode: luminosity;
+}
+
+.option:hover span {
+  color: #524E4E;
+}
+.header {
+  margin-top: 20px;
+  background-color: #D9D9D9;
+  padding: 12px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  align-items: center;
+}
+
+.box {
+  background-color: #ffffff;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 3px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 200px;                                                                      
+  margin-left: -50px;
+  margin-top: 6px;
+  margin-bottom: 50px;
+  height: 100%;
+}
+
+.text-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button1 {
+  margin: 0px 90px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #524E4E;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button2 {
+  margin: 0px 90px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #D5603B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color
+}
+
+
+
+.notify{
+  width: 5.5%;
+  height: 11.5%;
+  margin-top: -3%;
+  margin-left: 60%;
+  border-radius: 15px;
+}
+
+.green-inner {
+  display: flex;
+  flex-direction: column; 
+  padding-top: 50px;
+  padding-left: 0px;/* Stack boxes vertically */
+} 
+.green-inner input[type="text"]{
+    position: absolute;
+    width: 25%;
+    height: 5%;
+    border-radius: 30px;
+    border: none;
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 2%;
+    margin-top: -2%;
+    text-align: center;
+    outline: none;
+    z-index: 0;
+    border-radius: 30px;
+}
