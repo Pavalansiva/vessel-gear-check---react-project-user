@@ -35,6 +35,7 @@ import { EngineRoom } from './components/Checklist/DeptChecklistOptions';
 import { ContainerLogistics } from './components/Checklist/DeptChecklistOptions';
 import { AccomodationHospitality } from './components/Checklist/DeptChecklistOptions';
 import reportWebVitals from './reportWebVitals';
+import Success from './components/Success';
 
 const App = () => {
   return (
@@ -53,7 +54,8 @@ const App = () => {
         <Route path="/VesselProfileNext" element={<VesselProfileNext />} />
         <Route path="/roles" element={<Roles />}/>
         <Route path="/personal" element={<Personal/>}/>
-        <Route path="/set" element={<Set/>}/> 
+        <Route path="/set" element={<Set/>}/>
+        <Route path="/success" element={<Success/>}/>  
         <Route path="/Checklistmain" element={<Checklistmain/>}/>
         <Route path="/checklistmaincontent" element={<ChecklistMainContent />} />
         <Route path="/createchecklistpage" element={<CreateChecklistPage />} />

@@ -20,15 +20,15 @@
   }
   .pwhite-box {
     display: flex;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 30px;
     background-color: #ffffff; /* Background color inside the box */
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
     padding-top: 20px; /* Example of top padding */
-    padding-right:40px; /* Example of right padding */
-    padding-bottom: 5px; /* Example of bottom padding */
+    padding-right:50px; /* Example of right padding */
+    padding-bottom: 15px; /* Example of bottom padding */
     padding-left: 20px; /* Example of left padding *//* Padding inside the card */
     width: 1115px;
     height: 520px;
@@ -60,7 +60,7 @@ input[type="text"] {
 }
 
 .pbutton1 {
-  margin: 0px 90px; /* Adjust margin between buttons */
+  margin: 35px 90px; /* Adjust margin between buttons */
   padding: 10px 30px;
   border-radius: 20px;
   background-color: #524E4E;;
@@ -71,7 +71,7 @@ input[type="text"] {
 }
 
 .pbutton2 {
-  margin: 0px 90px; /* Adjust margin between buttons */
+  margin: 35px 90px; /* Adjust margin between buttons */
   padding: 10px 30px;
   border-radius: 20px;
   background-color: #D5603B;;

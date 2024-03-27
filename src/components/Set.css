@@ -22,13 +22,13 @@
 
 .swhite-box {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 30px;
   justify-content: flex-start;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  padding-right: 50px;
+  padding-right: 45px;
   background: #FFFFFF;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -65,4 +65,27 @@
   background-color: #6C63FF;
   text-decoration: none;
   border: none;
+}
+
+.sblack{
+  width:250px;
+  color: white;
+  height: 60px;
+  border-radius: 15px;
+  font-size:18px;
+  letter-spacing: 1.0px;
+  font-weight:30px;
+  background-color: black;
+  text-decoration: none;
+  border: none;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+.black img{
+  margin-bottom: -1%;
+  margin-left: 25%;
+}
+.black h4{
+  color: #524E4E;
+  letter-spacing: 0.8px;
 }
