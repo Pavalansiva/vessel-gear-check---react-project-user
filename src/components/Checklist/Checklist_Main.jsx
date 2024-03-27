@@ -112,7 +112,7 @@ export function ReusableButton({ buttonText, to, sx,onClick }) {
 const buttons = [
   { text: "Create Checklist", path: "/new-checklist" },
   { text: "Default Checklist", path: "/default-checklist" },
-  { text: "Properties", path: "/properties" },
+  { text: "Properties", path: "/Properties" },
 ];
 
 const ChecklistMainContent = () => {
